@@ -1,9 +1,9 @@
-import React from 'react'
+import { FunctionComponent } from 'react'
 
 import { styles } from "../style"
 import { stats } from "../constants"
 
-export const Stats = () => {
+export const Stats: FunctionComponent = () => {
     return (
         <section className={`${styles.flexCenter} flex-row flex-wrap sm:mb-20 mb-6`}>
             {stats.map((stat) => {
